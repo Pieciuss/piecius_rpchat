@@ -215,11 +215,11 @@ RegisterCommand('try', function(source, args, rawCommand)
 
     local resultHtml, resultHint
     if success then
-        resultHtml = '<span class="rp-result rp-success"> ✓ Udane</span>'
-        resultHint = '<span class="rp-hint-result rp-hint-success"> ✓ Udane</span>'
+        resultHtml = '<span class="rp-result rp-success"> ✓ Success</span>'
+        resultHint = '<span class="rp-hint-result rp-hint-success"> ✓ Success</span>'
     else
-        resultHtml = '<span class="rp-result rp-fail"> ✗ Nieudane</span>'
-        resultHint = '<span class="rp-hint-result rp-hint-fail"> ✗ Nieudane</span>'
+        resultHtml = '<span class="rp-result rp-fail"> ✗ Failed</span>'
+        resultHint = '<span class="rp-hint-result rp-hint-fail"> ✗ Failed</span>'
     end
 
     local range = Config.Ranges.try

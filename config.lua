@@ -36,12 +36,12 @@ Config.Labels = {
 Config.GlobalDoAdminAce = 'command.globaldo_admin'
 
 Config.Descriptions = {
-    me       = 'Wykonaj akcję postaci (widoczna w pobliżu)',
-    ['do']   = 'Opisz otoczenie / sytuację (widoczna w pobliżu)',
-    try      = 'Spróbuj wykonać akcję (losowy wynik)',
-    ooc      = 'Wiadomość poza fabułą (lokalna)',
-    med      = 'Wiadomość medyczna / EMS',
-    twt      = 'Wyślij tweeta (widoczny globalnie)',
-    dw       = 'Wyślij wiadomość na Dark Web (globalnie)',
-    globaldo = 'Globalny opis sytuacji (wymaga zatwierdzenia admina)',
+    me       = 'Perform a character action (visible nearby)',
+    ['do']   = 'Describe surroundings / situation (visible nearby)',
+    try      = 'Try to perform an action (random outcome)',
+    ooc      = 'Out of character message (local)',
+    med      = 'Medical / EMS message',
+    twt      = 'Send a tweet (visible globally)',
+    dw       = 'Send a Dark Web message (global)',
+    globaldo = 'Global situation description (requires admin approval)',
 }

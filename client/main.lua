@@ -2,39 +2,39 @@ Citizen.CreateThread(function()
     Citizen.Wait(2000)
 
     TriggerEvent('chat:addSuggestion', '/me', Config.Descriptions.me, {
-        { name = 'akcja', help = 'np. wyciąga dokumenty z kieszeni' }
+        { name = 'action', help = 'e.g. pulls documents from pocket' }
     })
 
     TriggerEvent('chat:addSuggestion', '/do', Config.Descriptions['do'], {
-        { name = 'opis', help = 'np. Na stole leży broń' }
+        { name = 'description', help = 'e.g. A gun is lying on the table' }
     })
 
     TriggerEvent('chat:addSuggestion', '/try', Config.Descriptions.try, {
-        { name = 'akcja', help = 'np. próbuje otworzyć drzwi' }
+        { name = 'action', help = 'e.g. tries to open the door' }
     })
 
     TriggerEvent('chat:addSuggestion', '/med', Config.Descriptions.med, {
-        { name = 'wiadomość', help = 'np. Potrzebna pomoc medyczna!' }
+        { name = 'message', help = 'e.g. Medical assistance needed!' }
     })
 
     TriggerEvent('chat:addSuggestion', '/twt', Config.Descriptions.twt, {
-        { name = 'tweet', help = 'Treść tweeta' }
+        { name = 'tweet', help = 'Tweet content' }
     })
 
     TriggerEvent('chat:addSuggestion', '/dw', Config.Descriptions.dw, {
-        { name = 'wiadomość', help = 'Treść wiadomości Dark Web' }
+        { name = 'message', help = 'Dark Web message content' }
     })
 
     TriggerEvent('chat:addSuggestion', '/globaldo', Config.Descriptions.globaldo, {
-        { name = 'opis', help = 'Globalny opis sytuacji RP' }
+        { name = 'description', help = 'Global RP situation description' }
     })
 
-    TriggerEvent('chat:addSuggestion', '/acceptglobaldo', 'Zatwierdź oczekujące GlobalDo (admin)', {
-        { name = 'id', help = 'Numer ID wiadomości' }
+    TriggerEvent('chat:addSuggestion', '/acceptglobaldo', 'Approve pending GlobalDo (admin)', {
+        { name = 'id', help = 'Message ID number' }
     })
 
-    TriggerEvent('chat:addSuggestion', '/denyglobaldo', 'Odrzuć oczekujące GlobalDo (admin)', {
-        { name = 'id', help = 'Numer ID wiadomości' }
+    TriggerEvent('chat:addSuggestion', '/denyglobaldo', 'Reject pending GlobalDo (admin)', {
+        { name = 'id', help = 'Message ID number' }
     })
 end)
 
